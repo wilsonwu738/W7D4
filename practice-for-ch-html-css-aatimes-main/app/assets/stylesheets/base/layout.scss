@@ -14,9 +14,9 @@ body {
 }
 
 button {
-	// background-color:
+	background-color: #2e3234;
 	// border-color:
-	// color:
+	color: red;
 	// font-weight:
 	// padding:
 	// border-radius:
@@ -25,6 +25,7 @@ button {
 	// text-transform:
 	// font-size:
 	// text-align:
+	display: flex;
 }
 
 button:hover {
@@ -51,3 +52,4 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
