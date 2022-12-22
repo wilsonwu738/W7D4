@@ -1,7 +1,9 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content:space-around;
+  padding: auto 0;
 }
 
 .left-nav > ul,
