@@ -8,14 +8,19 @@
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
+    
     > li {
-      
+      font-family: cursive;
+      font-size: 16px;
+      text-transform: capitalize;
+      margin: 0px 5px;
     }
   }
 
@@ -26,23 +31,28 @@
 
 .right-nav  {
   > ul {
+    >button {
+      margin: 0px 5px;
     > li {
-      
+      font-family: cursive;
+      font-size: 16px;
+      text-transform: capitalize;
     }
 
     > li:last-of-type {
-      
+      // font-size: 20px;
+    }
     }
   }
   
   i {
-    
+    font-size: 20px;
   }
 }
 
 .left-nav > ul > li:hover,
-.right-nav > ul > li:last-of-type:hover {
-  
+.right-nav > ul > button:hover {
+  background-color: rgba(166, 173, 209, 0.765);
 }
 
     
